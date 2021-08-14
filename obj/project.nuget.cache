@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "LxbExk6gqaaWlYfB1qYQ5QhXG0YwjX2N/AoDa92kVyRdnNxVM1p4MGqBkNN4omBU38ANi6HZ/PMJebdqx3VpVg==",
+  "success": true,
+  "projectFilePath": "F:\\CSharp Tutorials\\Learning\\Roadmap\\ASP.NET\\TrafficControl\\TrafficControl.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\balon\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

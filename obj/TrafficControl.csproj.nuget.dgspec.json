@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\CSharp Tutorials\\Learning\\Roadmap\\ASP.NET\\TrafficControl\\TrafficControl.csproj": {}
+  },
+  "projects": {
+    "F:\\CSharp Tutorials\\Learning\\Roadmap\\ASP.NET\\TrafficControl\\TrafficControl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\CSharp Tutorials\\Learning\\Roadmap\\ASP.NET\\TrafficControl\\TrafficControl.csproj",
+        "projectName": "TrafficControl",
+        "projectPath": "F:\\CSharp Tutorials\\Learning\\Roadmap\\ASP.NET\\TrafficControl\\TrafficControl.csproj",
+        "packagesPath": "C:\\Users\\balon\\.nuget\\packages\\",
+        "outputPath": "F:\\CSharp Tutorials\\Learning\\Roadmap\\ASP.NET\\TrafficControl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "F:\\Visual Studio\\VS2019Components\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\balon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.206\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
