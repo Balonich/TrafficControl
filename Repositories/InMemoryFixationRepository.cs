@@ -44,6 +44,12 @@ namespace TrafficControl.Repositories
             return await Task.FromResult(fixations);
         }
 
+        public async Task<CarSpeedFixationItem> GetSingleFixationAsync(Guid id)
+        {
+            var fixation = fixations.SingleOrDefault(fixation => fixation.Id == id);
+            return await Task.FromResult(fixation);
+        }
+
         public async Task<IEnumerable<CarSpeedFixationItem>> GetFixationsOnDateBySpeedAsync(DateTime datetime, float speed)
         {
             var filteredFixations = fixations.Where(fixation => fixation.FixationDateTime.Date == datetime.Date && fixation.CarSpeed >= speed);
@@ -52,7 +58,6 @@ namespace TrafficControl.Repositories
 
         public async Task<IEnumerable<CarSpeedFixationItem>> GetMinAndMaxSpeedOnDateAsync(DateTime datetime)
         {
-
             var filteredFixations = fixations.Where(fixation =>
                 fixation.FixationDateTime.Date == datetime.Date &&
                 fixation.CarSpeed == fixations.Min(fixation => fixation.CarSpeed) &&
